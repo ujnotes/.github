@@ -1,10 +1,27 @@
 # Ujnotes
-### (ujnotes.com)
+### ujnotes.com
 
 Welcome to Ujnotes
 
 This project houses the software sub system for my blog website: ujnotes.com
 
 ## Projects
-web: [website](https://github.com/ujnotes/web-site)
+1. web: [website](https://github.com/ujnotes/web-site)  
 main: [web](https://github.com/ujnotes/web)
+
+## Steps:  
+1. Setup:
+    1. Create docker:  
+        1. /web  
+            This will create :  
+                1. web-site  
+                2. nginx-proxy
+
+2. Operate:
+    1. Update article in CMS  
+    2. RUN [NCMS](https://github.com/blank-org/ncms)
+
+3. Deploy:  
+    1. Run [tiggu](https://github.com/blank-org/tiggu)  
+    or
+    2. CI/CD setup
