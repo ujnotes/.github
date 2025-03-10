@@ -22,6 +22,6 @@ main: [web](https://github.com/ujnotes/web)
     2. RUN [NCMS](https://github.com/blank-org/ncms)
 
 3. Deploy:  
-    1. Run [tiggu](https://github.com/blank-org/tiggu)  
-    or
-    2. CI/CD setup
+    1. Run `render.sh` - [tiggu](https://github.com/blank-org/tiggu)  
+    2. push `project\build\public` for CI/CD
+
