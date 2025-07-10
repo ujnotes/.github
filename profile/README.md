@@ -9,6 +9,27 @@ This project houses the software sub system for my blog website: ujnotes.com
 1. web: [website](https://github.com/ujnotes/web-site)  
 main: [web](https://github.com/ujnotes/web)
 
+## Project stcuture
+
+```
+Web
+│
+├── Site
+│   └── Project             (ujnotes/web-site)
+|       ├── root\framework  (blank-org/cutie - submoduled)
+│       ├── interim
+│       └── public
+│
+├── Project                 (ujnotes/web)
+│   ├── interim             (ujnotes/web-interim)
+│   └── public              (ujnotes/web-public > ujnotes.com)
+|
+│
+└── Tiggu                   (blank-org/tiggu)
+│
+└── Firebase                (blank-org/firebase)
+```
+
 ## Steps:  
 1. Setup:
     1. Create docker:  
